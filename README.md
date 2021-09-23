@@ -30,4 +30,4 @@ You can download the latest PDF document [here](https://github.com/Family-Office
 
 ## License
 
-This project is licensed under the [CC0 1.0 Universal](LICENSE) license.  
+This project and its contents are licensed under the [CC0 1.0 Universal](LICENSE) license.  
