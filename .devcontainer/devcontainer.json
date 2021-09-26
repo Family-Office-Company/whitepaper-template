@@ -2,7 +2,8 @@
 	"name": "Whitepaper Devcontainer",
 	"image": "familyoffice/whitepaper-devcontainer:latest",
 	"extensions": [
-		"leojhonsong.latex-extension-pack"
+		"leojhonsong.latex-extension-pack",
+		"joaompinto.vscode-graphviz"
 	],
 	"remoteUser": "vscode"
 }
