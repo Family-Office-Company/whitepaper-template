@@ -1,4 +1,4 @@
-name: Build LaTeX document
+name: Release PDF build
 
 on:  
   release:
@@ -9,7 +9,7 @@ env:
   PDF_NAME: whitepaper_template_${{ github.event.release.tag_name }}.pdf
 
 jobs:
-  build_latex:
+  release:
     runs-on: ubuntu-latest
     steps:
       - name: Set up Git repository
@@ -18,7 +18,7 @@ jobs:
       - name: Compile LaTeX document
         uses: xu-cheng/latex-action@v2
         with:
-          root_file: main.text
+          root_file: main.tex
 
       - name: Rename PDF build
         run: mv main.pdf ${{ env.PDF_NAME }}
