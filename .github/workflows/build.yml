@@ -6,7 +6,7 @@ on:
       - published
 
 env:
-  PDF_NAME: ${{ github.repository }}_${{ github.event.release.tag_name }}_${{ github.sha }}.pdf
+  PDF_NAME: whitepaper_template_${{ github.event.release.tag_name }}.pdf
 
 jobs:
   build_latex:
@@ -18,7 +18,10 @@ jobs:
       - name: Compile LaTeX document
         uses: xu-cheng/latex-action@v2
         with:
-          root_file: ${{ env.PDF_NAME }}
+          root_file: main.text
+
+      - name: Rename PDF build
+        run: mv main.pdf ${{ env.PDF_NAME }}
 
       - name: Release
         uses: softprops/action-gh-release@v1
