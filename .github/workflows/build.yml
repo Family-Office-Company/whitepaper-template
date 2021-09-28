@@ -1,9 +1,12 @@
 name: Build LaTeX document
 
 on:  
-  push:
-    tags:
-      - '*'
+  release:
+    types:
+      - published
+
+env:
+  PDF_NAME: ${{ github.repository }}_${{ github.event.release.tag_name }}_${{ github.sha }}.pdf
 
 jobs:
   build_latex:
@@ -15,9 +18,9 @@ jobs:
       - name: Compile LaTeX document
         uses: xu-cheng/latex-action@v2
         with:
-          root_file: main.tex
+          root_file: ${{ env.PDF_NAME }}
 
       - name: Release
         uses: softprops/action-gh-release@v1
         with:
-          files: main.pdf
+          files: ${{ env.PDF_NAME }}
