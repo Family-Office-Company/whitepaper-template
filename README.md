@@ -26,7 +26,7 @@ Paste a copy of the abstract section of your paper here to present repository vi
 
 ## PDF Download
 
-You can download the latest PDF document [here](https://github.com/Family-Office-Company/whitepaper-template/releases/latest).
+You can download the latest PDF document [here](https://github.com/FamilyOfficeOrg/whitepaper-template/releases/latest).
 
 ## License
 
