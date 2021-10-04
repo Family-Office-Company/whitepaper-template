@@ -3,7 +3,8 @@
 	"image": "familyoffice/whitepaper-devcontainer:latest",
 	"extensions": [
 		"leojhonsong.latex-extension-pack",
-		"joaompinto.vscode-graphviz"
+		"joaompinto.vscode-graphviz",
+		"streetsidesoftware.code-spell-checker"
 	],
 	"remoteUser": "vscode"
 }
