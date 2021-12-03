@@ -1,5 +1,5 @@
 <h1 align="center">
-    <img src="assets/logo.svg" width="512px">
+    <img src=".github/assets/logo.svg" width="512px">
 </h1>
 
 # Whitepaper Template
@@ -9,15 +9,15 @@ This repository contains a development environment for whitepapers written in La
 ## Requirements
 
 <p float="left">
-    <a href="https://git-scm.com"><img src="assets/git.png" alt="git" width="32"/></a>
-    <a href="https://www.docker.com"><img src="assets/docker.png" alt="docker" width="32"/></a>
-    <a href="https://www.github.com/"><img src="assets/github.png" alt="github" width="32"/></a>
+    <a href="https://git-scm.com"><img src=".github/assets/git.png" alt="git" width="32"/></a>
+    <a href="https://www.docker.com"><img src=".github/assets/docker.png" alt="docker" width="32"/></a>
+    <a href="https://www.github.com/"><img src=".github/assets/github.png" alt="github" width="32"/></a>
 </p>
 
 ## IDE Support
 
 <p float="left">
-    <a href="https://code.visualstudio.com"><img src="assets/vscode.png" alt="vscode" width="32"/></a>
+    <a href="https://code.visualstudio.com"><img src=".github/assets/vscode.png" alt="vscode" width="32"/></a>
 </p>
 
 ## Abstract
