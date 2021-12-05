@@ -4,7 +4,9 @@
 	"extensions": [
 		"leojhonsong.latex-extension-pack",
 		"joaompinto.vscode-graphviz",
-		"streetsidesoftware.code-spell-checker"
+		"streetsidesoftware.code-spell-checker",
+		"ms-toolsai.jupyter",
+		"ms-python.python"
 	],
 	"remoteUser": "vscode"
 }
